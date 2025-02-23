@@ -13,7 +13,7 @@
 * We used [MemeCap](https://github.com/eujhwang/meme-cap), [NewYorker Cartoons](https://huggingface.co/datasets/jmhessel/newyorker_caption_contest), and [YesBut](https://huggingface.co/datasets/bansalaman18/yesbut)
 * For NewYorker Cartoon dataset, we used test splits of explanation task.
 * For Memecap, download the dataset from github and locate it under `data/memecap/`
-* When running the first time, the code will first download and preprocess the data. It will reuse these files with later runs.
+* For NewYorker Cartoon and YesBut, when running the first time, the code will first download and preprocess the data. It will reuse these files with later runs.
 
 ## Model
 
