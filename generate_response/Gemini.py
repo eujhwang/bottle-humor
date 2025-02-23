@@ -40,8 +40,3 @@ class Gemini(Base):
             time.sleep(20)
         return ''
         
-
-# gemma_model = Gemma(data_dir="data/memecap", data_type="test", add_image_descriptions=True, add_implications=True)
-# gemma_model.load_model()
-# gemma_model.load_dataset()
-# gemma_model.generate_explanation()

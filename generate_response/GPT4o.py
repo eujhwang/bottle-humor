@@ -11,7 +11,7 @@ load_dotenv()
 class GPT4o(Base):
     def load_model(self):
         self.client = AzureOpenAI(
-            api_key=os.environ['OPENAI_KEY2'],
+            api_key=os.environ['OPENAI_KEY'],
             api_version="2024-08-01-preview",
             azure_endpoint=os.environ['AZURE_END_POINT']
         )
