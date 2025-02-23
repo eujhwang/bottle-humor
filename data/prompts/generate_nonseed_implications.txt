@@ -1,0 +1,69 @@
+You are provided with the following inputs:
+- **[Image]:** An image (e.g. meme, new yorker cartoon, yes-but image)
+- **[Caption]:** A caption written by a human.
+- **[Descriptions]:** Literal descriptions that detail the image.
+- **[Implication]:** A previously generated implication that suggests a possible connection between the objects or concepts in the caption and description.
+
+### Your Task:
+{goal}
+Infer **implicit meanings** across the objects, concepts, situations, or facial expressions found in the caption, description, and implication. Focus on identifying relevant commonsense knowledge, social norms, or underlying connections.
+
+### Guidelines:
+- If you are unsure about any details in the caption, description, or implication, refer to the original image for clarification.
+- Identify **potential connections** between the objects, actions, or concepts described in the inputs.
+- Explore **interpretations, contrasts, or relationships** that naturally arise from the scene while remaining grounded in the inputs.
+- Avoid **repeating or rephrasing** existing implications. Ensure each new implication provides fresh insights or perspectives.
+- Each implication should be **concise (one sentence)** and avoid overly generic or vague statements.
+- Be **specific** in the connections you make, ensuring they align closely with the details provided.
+- Generate **up to 3 meaningful implications** that expand on the implicit meaning of the scene.
+
+### Example Outputs:
+
+#### Example 1 (example of newyorker cartoon image):
+[Caption]: "This is the most advanced case of Surrealism I've seen."
+[Descriptions]: A body in three parts is on an exam table in a doctor's office with the body's arms crossed as though annoyed.
+[Implication]: Surrealism is an art style that emphasizes strange, impossible, or unsettling scenes.
+[Connections]:
+1. A body in three parts creates an unsettling juxtaposition with the clinical setting, which aligns with Surrealist themes.
+2. The body’s crossed arms add humor by assigning human emotion to an impossible scenario, reflecting Surrealist absurdity.
+3. The clinical setting emphasizes order and logic, creating a contrast with the illogical disassembly of the body.
+
+#### Example 2 (example of newyorker cartoon image):
+[Caption]: "He has a summer job as a scarecrow."
+[Descriptions]: There is a snowman with human arms.
+[Implication]: A snowman with human arms suggests that a real person could be disguised as a snowman.
+[Connections]:
+1. The snowman evokes a sense of misplaced seasonality, emphasizing the humor in the contrast between winter and summer jobs.
+2. The human arms imply an odd juxtaposition between an inanimate object and human qualities, adding a humorous twist.
+3. Seasonal associations create a playful commentary on adaptability or being out of place.
+
+#### Example 3 (example of yesbut image):
+[Caption]: "The left side shows a hand holding a blue plane ticket marked with a price of '$50'."
+[Descriptions]: The screen on the right side shows a route map labeled "Airport" and a price of "$65".
+[Implication]: Traveling by air often incurs additional costs beyond the plane ticket itself, such as transportation to the airport, which is reflected in the higher price for the taxi ride compared to the ticket.
+[Connections]:
+1. The discrepancy in costs highlights the unexpected expenses of modern travel.
+2. The irony lies in the idea that getting to the airport may cost more than flying, subverting typical expectations of travel budgeting.
+3. The visual contrast between the ticket and the route map emphasizes the hidden logistical challenges of air travel.
+
+#### Example 4 (example of meme):
+[Caption]: "You said memes would work!"
+[Descriptions]: On the right side, the text above the cat reads, "I said good memes would work."
+[Implication]: The woman's frustration contrasts with the cat's emphasis on quality, highlighting that success depends on execution, not just the idea.
+[Connections]:
+1. The woman's anger reflects misplaced blame on the concept rather than the execution, a common social trope.
+2. The cat’s emphasis on "good memes" underscores the importance of quality and thoughtfulness in trends or strategies.
+3. The scenario mirrors real-world dynamics where failure is attributed to flawed implementation rather than flawed ideas.
+
+---
+
+### Proceed to Generate Output:
+[Caption]: {caption}
+
+[Descriptions]:
+{description}
+
+[Implication]:
+{implication}
+
+[Connections]:

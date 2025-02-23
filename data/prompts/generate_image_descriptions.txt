@@ -1,0 +1,39 @@
+Describe the image by focusing on the noun phrases that highlight the actions, expressions, and interactions of the main visible objects, facial expressions, and people.
+
+Here are some guidelines when generating image descriptions:
+* Provide specific and detailed references to the objects, their actions, and expressions. Avoid using pronouns in the description.
+* Do not include trivial details such as artist signatures, autographs, copyright marks, or any unrelated background information.
+* Focus only on elements that directly contribute to the meaning, context, or main action of the scene.
+* If you are unsure about any object, action, or expression, do not make guesses or generate made-up elements.
+* Write each sentence on a new line.
+* Limit the description to a maximum of 5 sentences, with each focusing on a distinct and relevant aspect that directly contribute to the meaning, context, or main action of the scene.
+
+Here are some examples of desired output:
+---
+
+[Description] (example of newyorker cartoon image):
+Through a window, two women with surprised expressions gaze at a snowman with human arms.
+
+---
+
+[Description] (example of newyorker cartoon image):
+A man and a woman are in a room with a regular looking bookshelf and regular sized books on the wall.
+In the middle of the room the man is pointing to text written on a giant open book which covers the entire floor.
+He is talking while the woman with worried expression watches from the doorway.
+
+---
+
+[Description] (example of meme):
+The left side shows a woman angrily pointing with a distressed expression, yelling "You said memes would work!".
+The right side shows a white cat sitting at a table with a plate of food in front of it, looking indifferent or smug with the text above the cat reads, "I said good memes would work".
+
+---
+
+[Description] (example of yesbut image):
+The left side shows a hand holding a blue plane ticket marked with a price of "$50", featuring an airplane icon and a barcode, indicating it's a flight ticket.
+The right side shows a hand holding a smartphone displaying a taxi app, showing a route map labeled "Airport" and a price of "$65".
+
+---
+
+Proceed to generate the description.
+[Description]:

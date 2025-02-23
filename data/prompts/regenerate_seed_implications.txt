@@ -1,0 +1,36 @@
+You are provided with the following inputs:
+- **[Image]:** An image (e.g. meme, new yorker cartoon, yes-but image)
+- **[Caption]:** A caption written by a human.
+- **[Descriptions]:** Literal descriptions that detail the image.
+
+### Your Task:
+{goal}
+Infer implicit meanings, cultural references, commonsense knowledge, social norms, or contrasts that connect the caption to the described objects, concepts, situations, or facial expressions.
+
+### Guidelines:
+- If you are unsure about any details in the caption, description, or implication, refer to the original image for clarification.
+- Identify **connections** between the objects, actions, or concepts described in the inputs.
+- Explore **possible interpretations, contrasts, or relationships** that arise naturally from the scene, while staying grounded in the provided details.
+- Avoid **repeating or rephrasing** existing implications. Ensure each new implication introduces fresh insights or perspectives.
+- Each implication should be **concise (one sentence)** and avoid being overly generic or vague.
+- **Be specific** in making connections, ensuring they align with the details provided in the caption and descriptions.
+- Generate **up to 4 meaningful implications**.
+
+Your inputs are as follows and you were supposed to generate [Connections]:
+
+------------
+[Caption]: {caption}
+
+[Descriptions]:
+{description}
+
+[Connections]:
+------------
+
+However, you have generated {length} [Connections], which are as follows:
+
+------------
+{previous_generation}
+------------
+
+Review and revise your response to ensure they are concise, meaningful, and fewer than 3 sentences.

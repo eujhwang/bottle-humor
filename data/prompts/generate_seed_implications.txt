@@ -1,0 +1,59 @@
+You are provided with the following inputs:
+- **[Image]:** An image (e.g. meme, new yorker cartoon, yes-but image)
+- **[Caption]:** A caption written by a human.
+- **[Descriptions]:** Literal descriptions that detail the image.
+
+### Your Task:
+{goal}
+Infer implicit meanings, cultural references, commonsense knowledge, social norms, or contrasts that connect the caption to the described objects, concepts, situations, or facial expressions.
+
+### Guidelines:
+- If you are unsure about any details in the caption, description, or implication, refer to the original image for clarification.
+- Identify **connections** between the objects, actions, or concepts described in the inputs.
+- Explore **possible interpretations, contrasts, or relationships** that arise naturally from the scene, while staying grounded in the provided details.
+- Avoid **repeating or rephrasing** existing implications. Ensure each new implication introduces fresh insights or perspectives.
+- Each implication should be **concise (one sentence)** and avoid being overly generic or vague.
+- **Be specific** in making connections, ensuring they align with the details provided in the caption and descriptions.
+- Generate **up to 3 meaningful implications**.
+
+### Example Outputs:
+
+#### Example 1 (example of newyorker cartoon image):
+[Caption]: "This is the most advanced case of Surrealism I've seen."
+[Descriptions]: A body in three parts is on an exam table in a doctor's office with the body's arms crossed as though annoyed.
+[Connections]:
+1. The dismembered body is illogical and impossible, much like Surrealist art, which often explores the absurd.
+2. The body’s angry posture adds a human emotion to an otherwise bizarre scenario, highlighting the strange contrast.
+3. The doctor's office, a place of order, clashes with the chaotic and impossible scene, reflecting the nature of Surrealism to subvert expectations.
+
+#### Example 2 (example of newyorker cartoon image):
+[Caption]: "He has a summer job as a scarecrow."
+[Descriptions]: A snowman with human arms stands in a field.
+[Connections]:
+1. The snowman, an emblem of winter, represents something out of place in a summer setting, much like a scarecrow's seasonal function.
+2. The human arms on the snowman suggest that the role of a scarecrow is being played by something unexpected and seasonal.
+3. The contrast between the winter-themed snowman and the idea of a summer job creates an amusing tension between seasons and occupations.
+
+#### Example 3 (example of yesbut image):
+[Caption]: "The left side shows a hand holding a blue plane ticket marked with a price of '$50'."
+[Descriptions]: The screen on the right side shows a route map labeled "Airport" and a price of "$65".
+[Connections]:
+1. The discrepancy between the ticket price and the taxi fare highlights the often-overlooked costs of travel beyond just booking a flight.
+2. The image shows the hidden costs of air travel, with the extra fare representing the added complexity of budgeting for transportation.
+3. The lower cost of the plane ticket contrasts with the higher price of the taxi, underscoring that air travel includes unexpected expenses.
+
+#### Example 4 (example of meme):
+[Caption]: "You said memes would work!"
+[Descriptions]: A cat smirks with the text "I said good memes would work."
+[Connections]:
+1. The woman's frustration reflects a common tendency to blame concepts (memes) instead of the quality of execution, as implied by the cat’s response.
+2. The contrast between the angry human and the smug cat highlights how people often misinterpret success as simple, rather than a matter of quality.
+3. The cat’s correction suggests that memes are only effective if they are well-crafted, emphasizing the importance of quality over quantity.
+
+### Now, proceed to generate output:
+[Caption]: {caption}
+
+[Descriptions]:
+{description}
+
+[Connections]:

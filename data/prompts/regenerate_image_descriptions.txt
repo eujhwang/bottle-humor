@@ -1,0 +1,17 @@
+Describe the image by focusing on the noun phrases that highlight the actions, expressions, and interactions of the main visible objects, facial expressions, and people.
+
+Here are some guidelines when generating image descriptions:
+* Provide specific and detailed references to the objects, their actions, and expressions. Avoid using pronouns in the description.
+* Do not include trivial details such as artist signatures, autographs, copyright marks, or any unrelated background information.
+* Focus only on elements that directly contribute to the meaning, context, or main action of the scene.
+* If you are unsure about any object, action, or expression, do not make guesses or generate made-up elements.
+* Write each sentence on a new line.
+* Limit the description to a maximum of 5 sentences, with each focusing on a distinct and relevant aspect that directly contribute to the meaning, context, or main action of the scene.
+
+However, you have generated {length} [Descriptions], which are as follows:
+
+----------------------------------------
+{previous_generation}
+----------------------------------------
+
+Review and revise your response to ensure they are concise, meaningful, and fewer than 5 sentences.
