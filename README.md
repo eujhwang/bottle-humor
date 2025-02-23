@@ -12,6 +12,7 @@
 
 * We used [MemeCap](https://github.com/eujhwang/meme-cap), [NewYorker Cartoons](https://huggingface.co/datasets/jmhessel/newyorker_caption_contest), and [YesBut](https://huggingface.co/datasets/bansalaman18/yesbut)
 * For NewYorker Cartoon dataset, we used test splits of explanation task.
+* For Memecap, download the dataset from github and locate it under `data/memecap/`
 * When running the first time, the code will first download and preprocess the data. It will reuse these files with later runs.
 
 ## Model
@@ -22,13 +23,13 @@
 ## Example Command
 
 * Zero-shot baseline: <br />
-`python run.py --data_dir=data/memecap/ --data_type=test --model_name=gpt4o --split=0 --num_hops=2 --out_dir_name='final' --temperature=0.8 --weight=0.7 --seed=0`
+`python run.py --data_dir=data/memecap/ --data_type=test --model_name=gpt4o --split=0 --num_hops=2 --out_dir_name='tmp' --temperature=0.8 --weight=0.7 --seed=0`
 
 * Chain-of-Thought (CoT) baseline: <br />
-`python run.py --data_dir=data/memecap/ --data_type=test --model_name=gpt4o --add_cot --split=0 --num_hops=2 --out_dir_name='final' --temperature=0.8 --weight=0.7 --seed=0`
+`python run.py --data_dir=data/memecap/ --data_type=test --model_name=gpt4o --add_cot --split=0 --num_hops=2 --out_dir_name='tmp' --temperature=0.8 --weight=0.7 --seed=0`
 
 * Ours: <br />
-`python run.py --data_dir=data/memecap/ --data_type=test --model_name=gpt4o --add_image_descriptions --add_implications --add_candidate_response --split=0 --num_hops=2 --out_dir_name='final' --temperature=0.8 --weight=0.7 --seed=0`
+`python run.py --data_dir=data/memecap/ --data_type=test --model_name=gpt4o --add_image_descriptions --add_implications --add_candidate_response --split=0 --num_hops=2 --out_dir_name='tmp' --temperature=0.8 --weight=0.7 --seed=0`
 
 
 ## Example Command for Evaluation
