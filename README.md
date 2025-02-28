@@ -42,9 +42,15 @@
 
 ## Paper
 
-If the code is helpful for your project, please cite [our paper]() (Bibtex below).
+If the code is helpful for your project, please cite [our paper](https://arxiv.org/abs/2502.18331) (Bibtex below).
 ```
-TBD
+@article{hwang2025bottlehumor,
+  title   = {BottleHumor: Self-Informed Humor Explanation using the Information Bottleneck Principle},
+  author  = {EunJeong Hwang and Peter West and Vered Shwartz},
+  journal = {arXiv preprint arXiv:2502.18331},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2502.18331},
+}
 ```
 
 ## Note
